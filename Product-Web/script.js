@@ -93,6 +93,8 @@ function showProduct(list = products) {
         productButtom.setAttribute("type", "button");
         productButtom.setAttribute("class", " btn btn-outline-dark rounded-0 cart");
         productButtom.textContent = "Add Now";
+        productButtom.setAttribute("onclick", "addAlert()");
+        productButtom.textContent = "Add Now";
 
         //AppendChild to Div(productItem)
         productItem.appendChild(productImg);

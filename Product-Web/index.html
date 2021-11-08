@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Accessories</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="script.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Active ID :
+        #feed  > Show Products. (div)
+        #search > Toggle Search Panel.
+        #searchpanel > Show (On/Off) search panel.
+        #cart > Show All Items in cart.
+        #numqty > Show Total Quantity.
+        #totalprice > Show Total Price.
+        #cancel > button for delete all items in cart.
+    -->
+    <nav class="navbar navbar-expand navbar navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./image/logo.png"  width="20" height="25" class="d-inline-block align-text-top">
+              </a>
+
+            <div class="collapse navbar-collapse m-1 justify-content-end " id="navbarDropdown">
+                <div class="d-flex justify-content-center align-items-center" id="searchpanel"></div>
+                
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item ">
+                        <i class='bx bx-search bx-md me-4' id='search' ></i>  
+                    </li>
+                    <li class="nav-item">
+                        <span id='numqty'
+                            class='mx-auto border rounded-circle align-items-center d-flex justify-content-center bg-warning border border-2 border-dark'
+                            style='width: 28px; height: 28px;'>0</span>
+                        <i class='bx bx-cart-alt bx-md bx-burst-hover ms-4' id='cart'></i>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
+                        <span>Price :
+                            <p id="totolprice">
+                                0
+                            </p>
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <button id='clear' class="btn btn-outline-danger">clear</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img src="./image/title.png" class="img-fluid" width="1440 px">
+    <div class="Heading">
+        <div id="Main">
+            <br>
+            <h1>Featured Apple Accessories</h1>
+            <div class="container">
+            </div>
+            <div id="feed" class="container row justify-content-center mx-auto"></div>
+
+</body>
+
+</html>

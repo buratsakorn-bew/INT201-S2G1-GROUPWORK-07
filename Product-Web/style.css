@@ -1,0 +1,21 @@
+body {
+    font-size: 13px;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+}
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar {
+    padding: 0;
+    color: #F5F5F5;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

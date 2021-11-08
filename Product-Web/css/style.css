@@ -4,10 +4,6 @@ body {
     font-style: normal;
 }
 
-h1 {
-    text-align: center;
-}
-
 .navbar-nav>li {
     padding-left: 20px;
     padding-right: 20px;
@@ -26,17 +22,11 @@ h1 {
 
 #totolprice {
     border-radius: 25px;
-    background: yellowgreen;
-    padding: 13.5px;
+    background: #73AD21;
+    padding: 20px;
     margin: auto;
     width: 150px;
     height: 50px;
     text-align: center;
     font-size: medium;
-}
-
-h2 {
-    text-align: center;
-    padding: 20px;
-    margin: auto;
 }

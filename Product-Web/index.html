@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="script.js" type="module"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -26,33 +27,30 @@
     <nav class="navbar navbar-expand navbar navbar-dark bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="./image/logo.png"  width="20" height="25" class="d-inline-block align-text-top">
-              </a>
+                <img src="./image/logo.png" width="20" height="25" class="d-inline-block align-text-top" id="Apple">
+            </a>
 
             <div class="collapse navbar-collapse m-1 justify-content-end " id="navbarDropdown">
                 <div class="d-flex justify-content-center align-items-center" id="searchpanel"></div>
-                
+
                 <ul class="navbar-nav d-flex align-items-center">
                     <li class="nav-item ">
-                        <i class='bx bx-search bx-md me-4' id='search' ></i>  
+                        <i class='bx bx-search bx-md me-4' id='search'></i>
                     </li>
                     <li class="nav-item">
-                        <span id='numqty'
-                            class='mx-auto border rounded-circle align-items-center d-flex justify-content-center bg-warning border border-2 border-dark'
-                            style='width: 28px; height: 28px;'>0</span>
-                        <i class='bx bx-cart-alt bx-md bx-burst-hover ms-4' id='cart'></i>
+                        <span id='numqty' class='mx-auto border rounded-circle align-items-center d-flex justify-content-center bg-warning border border-2 border-dark' style='width: 28px; height: 28px;'>0</span>
+                        <!-- <i class='bx bx-cart-alt bx-md bx-burst-hover ms-4' id='cart'></i> -->
                     </li>
                     <li class="nav-item">
                     </li>
                     <li class="nav-item">
-                        <span>Price :
-                            <p id="totolprice">
-                                0
-                            </p>
+                        <p id="totolprice">
+                            <span>Price : 0 </p>
                         </span>
                     </li>
                     <li class="nav-item">
-                        <button id='clear' class="btn btn-outline-danger">clear</button>
+                        <!-- <button id='clear'>cancel</button> -->
+                        <button type="button" class="btn btn-danger" id='clear'>Clear</button>
                     </li>
                 </ul>
             </div>
@@ -62,8 +60,8 @@
     <img src="./image/title.png" class="img-fluid" width="1440 px">
     <div class="Heading">
         <div id="Main">
+            <h2>Featured Apple Accessories</h2>
             <br>
-            <h1>Featured Apple Accessories</h1>
             <div class="container">
             </div>
             <div id="feed" class="container row justify-content-center mx-auto"></div>

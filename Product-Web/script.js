@@ -30,6 +30,7 @@ button.addEventListener("click", () => {
 
         //Add items to Array to use in search.
         let item = [];
+        const searchValue = document.querySelector('#searchValue');
         searchValue.addEventListener('keyup', () => {
             //Collect data from <input> for use in searches.
             let value = new RegExp(searchValue.value, 'i');

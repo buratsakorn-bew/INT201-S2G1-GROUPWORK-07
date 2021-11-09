@@ -28,7 +28,7 @@ export let products = [{
 },
 {
     img: "image/Airtagpack.png",
-    id: 2001,
+    id: 2005,
     name: "Airtag 4 Pack",
     price: 3990,
     stock: "5"

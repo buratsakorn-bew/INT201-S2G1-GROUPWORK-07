@@ -177,7 +177,9 @@ cartIcon.addEventListener('click', () => {
 function showCart() {
     let string = ""
     for (let i of cart.items) {
-        string += `${i.product} Price : ${i.price} Baht Qty : ${i.qty}\n`
-    }
+    string += `${i.product} Price : ${i.price} Baht Qty : ${i.qty}\n`   
+    }  
+    string += `\n Total Qty : ${cart.totalQty} `;  
+    string += `\n Total Price : ${cart.totalPrice} Baht`;
     return string;
-}
+    }

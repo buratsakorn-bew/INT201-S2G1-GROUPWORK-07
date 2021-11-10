@@ -56,14 +56,14 @@ export let products = [{
     stock: "6"
 },
 {
-    img: "image/Apple Watch Magnetic.png",
+    img: "image/Apple-Watch-Magnetic.png",
     id: 3003,
     name: "Apple Watch Magnetic Charging Dock",
     price: 2990,
     stock: "10"
 },
 {
-    img: "image/MagicKeyboard- ThaiK.png",
+    img: "image/MagicKeyboard-ThaiK.png",
     id: 4000,
     name: "Magic Keyboard - Thaik",
     price: 3190,
@@ -77,7 +77,7 @@ export let products = [{
     stock: "5"
 },
 {
-    img: "image/Magic Trackpad.png",
+    img: "image/Magic-Trackpad.png",
     id: 4002,
     name: "Magic Trackpad",
     price: 4190,

@@ -63,9 +63,9 @@ export let products = [{
     stock: "10"
 },
 {
-    img: "image/MagicKeyboard-ThaiK.png",
+    img: "image/MK2A3TH.png",
     id: 4000,
-    name: "Magic Keyboard - Thaik",
+    name: "Magic Keyboard - Thaikey",
     price: 3190,
     stock: "9"
 },
